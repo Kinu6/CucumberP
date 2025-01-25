@@ -8,7 +8,7 @@ Feature: Login Page
 
   @tag1
   Scenario: Title of your scenario
-  Given  I want to launch the browser
+  Given  I want to launch the browser for TC01
   And  I want to Open the vTiger CRM login page
   And  Enter valid username and password
   Then  Click the Login button

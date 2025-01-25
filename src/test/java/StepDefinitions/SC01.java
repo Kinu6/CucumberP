@@ -4,8 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
-import org.testng.annotations.Test;
-
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -15,7 +13,7 @@ public class SC01 {
 	WebDriver driver;
 	
 	
-	@Given("I want to launch the browser")
+	@Given("I want to launch the browser for SC01")
 	public void i_want_to_launch_the_browser() throws InterruptedException {
 	  WebDriverManager.firefoxdriver().setup();
 	  driver= new FirefoxDriver();
